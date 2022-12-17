@@ -6,6 +6,12 @@ Install NVM to manage node versions
 Select the Typescript template: `npx create-react-app [project] --template typescript`
 If using `npx` to create-react-app, you will use `npm` as the package manager
 
+## Prettier
+
+### `npm run format`
+
+This will apply prettier rules found within `.prettierrc`\
+Open [Prettier Options](https://prettier.io/docs/en/options.html) to apply more rules
 
 ## NPM Scripts
 
