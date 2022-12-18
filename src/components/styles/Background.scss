@@ -1,0 +1,15 @@
+@import 'colours';
+@import 'fonts';
+
+.bg-nav-bar {
+    background: $navbar-background;
+}
+
+.navbar-brand {
+    cursor: pointer;
+    font-family: $brand-family;
+    font-weight: $brand-weight;
+    font-size: $brand-size;
+    line-height: $brand-height;
+    margin-left: 6px;
+}

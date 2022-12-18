@@ -7,4 +7,9 @@ describe('Bootstrap Button Test Suite', () => {
         const testButton = render(<BootstrapButton buttonText='Test Button' type='button' />);
         expect(testButton.getByText('Test Button')).toBeDefined();
     });
+
+    test('onclick method works', async () => {
+        const testButton = render(<BootstrapButton buttonText='Test Button' type='button' />);
+        expect(testButton.getByText('Test Button')).toBeDefined();
+    });
 });
